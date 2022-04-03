@@ -8,20 +8,20 @@ to save the changes of the database into the kafka so that the large
 number of requests can be handled by the kafka consumer.
 
 
-##Tables: 
+## Tables: 
 
-###continents:
-####id*, name, population, area,
-
-
-###countries: 
-####id*, name, population, area, total_hospitals, total_national_parks
+### continents:
+#### id*, name, population, area,
 
 
-###cities:
-####id*, name, population, area, total_roads , total_trees
+### countries: 
+#### id*, name, population, area, total_hospitals, total_national_parks
 
-###APIs:
+
+### cities:
+#### id*, name, population, area, total_roads , total_trees
+
+### APIs:
 
 - [GET] /wiki/continents: Fetch the data from Continents table and return to client in json format.
 - [POST] /wiki/add/continent: Add the data of a continent to the continent table by sending data in JSON format.
